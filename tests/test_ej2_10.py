@@ -10,5 +10,6 @@ from src.ej2_10 import pizza
      ("sí" , "la otra" , "La pizza es vegetariana y lleva tomate , mozzarella y tofu"),
     ("No" , "1" , "La pizza es no vegetariana y lleva tomate , mozzarella y peperoni")
 ])
+
 def test_pizza(vegano , ingrediente , expected):
     assert pizza(vegano , ingrediente) == expected
