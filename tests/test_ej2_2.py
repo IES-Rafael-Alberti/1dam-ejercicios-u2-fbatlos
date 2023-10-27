@@ -8,7 +8,7 @@ from src.ej2_2 import contraseña
     ("panconpalta123","La contraseña es incorrecta"),
     ("panpan123","La contraseña es incorrecta"),
     ("panconpan124","La contraseña es incorrecta"), 
-    ("PanPonPan123","La contraseña es correcta")
+    ("PanConPan123","La contraseña es correcta")
 ])
 def test_contraseña(contraseña_introducida, expected):
     assert contraseña(contraseña_introducida) == expected
