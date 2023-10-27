@@ -5,7 +5,7 @@ from src.ej2_1 import compara
 "edad , expected",
 [
     (1,"Eres menor de edad"),
-    (3,"Eres menor de edad"),
+    (16,"Eres menor de edad"),
     (17,"Eres menor de edad"),
     (52,"Eres mayor de edad"), 
     (19,"Eres mayor de edad")

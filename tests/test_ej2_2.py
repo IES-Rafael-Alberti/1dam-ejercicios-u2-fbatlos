@@ -6,7 +6,7 @@ from src.ej2_2 import contraseña
 [
     ("panconpan123","La contraseña es correcta"),
     ("panconpalta123","La contraseña es incorrecta"),
-    ("panpan123","La contraseña es incorrecta"),
+    ("pancan123","La contraseña es incorrecta"),
     ("panconpan124","La contraseña es incorrecta"), 
     ("PanConPan123","La contraseña es correcta")
 ])

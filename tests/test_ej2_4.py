@@ -5,7 +5,7 @@ from src.ej2_4 import par_o_impar
 "numero , expected",
 [
     (21 , "Tu numero es impar"),
-    (101 , "Tu numero es impar"),
+    (11 , "Tu numero es impar"),
     (50 , "Tu numero es par"),
     (200, "Tu numero es par"), 
     (63 , "Tu numero es impar")
