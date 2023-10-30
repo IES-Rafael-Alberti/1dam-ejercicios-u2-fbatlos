@@ -1,0 +1,1 @@
+def calcular_capital_a_obtener(amount , interes)
