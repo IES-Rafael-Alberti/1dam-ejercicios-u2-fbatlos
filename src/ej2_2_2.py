@@ -7,4 +7,10 @@ def vuelvedad(edad):
         out+=str(f"{cuenta}/")
         edad -=1
     return out
+def main():
+    edad = int(input("Edad : "))
+    print(vuelvedad(edad))
 
+
+if __name__ == "__main__":
+    main()
