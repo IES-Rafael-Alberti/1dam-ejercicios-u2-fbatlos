@@ -9,4 +9,3 @@ def impares(numero):
                 out+=str(f" {cuenta} ,")
         numero -=1
     return out
-print(impares(46))
