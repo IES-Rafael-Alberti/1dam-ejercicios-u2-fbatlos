@@ -6,3 +6,11 @@ def contraseña(contraseña_introducida):
         return "La contraseña es correcta"
     else:
         return "La contraseña es incorrecta"
+
+def main():
+    contraseña_introducida = (input("Introduce la contraseña : "))
+    print(contraseña())
+
+
+if __name__ == "__main__":
+    main()

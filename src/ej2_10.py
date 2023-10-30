@@ -18,3 +18,12 @@ def pizza(vegano , ingrediente ):
   
         else:
             return "La pizza es no vegetariana y lleva tomate , mozzarella y salmón"
+
+def main():
+    vegano = (input("Dame el dividendo : "))
+    ingrediente = (input("Dame el divisor : "))
+    print(pizza())
+
+
+if __name__ == "__main__":
+    main()

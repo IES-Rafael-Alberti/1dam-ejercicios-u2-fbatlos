@@ -7,3 +7,11 @@ def puntuacion(puntos):
         return f"Tu nivel de rendimiento es meritorio y tu dinero es {puntos*2400} "
     else:
         return "ERROR"
+
+def main():
+    puntos = float(input("Dime los puntos obtenidos : "))
+    print(puntuacion())
+
+
+if __name__ == "__main__":
+    main()

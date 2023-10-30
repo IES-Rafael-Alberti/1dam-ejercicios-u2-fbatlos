@@ -9,3 +9,11 @@ def renta(renta_anual):
         return "Tipo impositivo del 30%"
     elif renta_anual >= 60000 :
         return "Tipo impositivo del 45%"
+
+def main():
+    renta_anual = int(input("Dime tu renta anual : "))
+    print(renta())
+
+
+if __name__ == "__main__":
+    main()

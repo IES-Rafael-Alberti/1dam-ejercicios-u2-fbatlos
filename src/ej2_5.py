@@ -4,4 +4,12 @@ def tributar(edad , ingresos):
     else:
         return "No tributas crack"
 
+def main():
+    edad = int(input("Dame tu edad : "))
+    ingresos = int(input("Dame tus ingresos : "))
+    print(tributar())
+
+
+if __name__ == "__main__":
+    main()
     

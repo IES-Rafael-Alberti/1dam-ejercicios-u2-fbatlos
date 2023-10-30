@@ -5,3 +5,11 @@ def grupos(nombre , sexo):
     else:
         return "Grupo B"
   
+def main():
+    edad = (input("Dame el dividendo : "))
+    ingresos = (input("Dame tu sexo (F Femenino y M Masculino) : "))
+    print(grupos())
+
+
+if __name__ == "__main__":
+    main()
