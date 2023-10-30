@@ -12,7 +12,7 @@ def renta(renta_anual):
 
 def main():
     renta_anual = int(input("Dime tu renta anual : "))
-    print(renta())
+    print(renta(renta_anual))
 
 
 if __name__ == "__main__":

@@ -7,7 +7,7 @@ def disvision(dividendo,divisor):
 def main():
     dividendo = int(input("Dame el dividendo : "))
     divisor = int(input("Dame el divisor : "))
-    print(disvision())
+    print(disvision(dividendo , divisor))
 
 
 if __name__ == "__main__":

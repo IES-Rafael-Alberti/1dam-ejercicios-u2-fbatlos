@@ -8,7 +8,7 @@ def compara(edad):
 
 def main():
     edad = int(input("Edad: "))
-    print(compara())
+    print(compara(edad))
 
 
 if __name__ == "__main__":

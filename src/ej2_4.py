@@ -6,7 +6,7 @@ def par_o_impar(numero):
 
 def main():
     numero = int(input("Dime un número : "))
-    print(par_o_impar())
+    print(par_o_impar(numero))
 
 
 if __name__ == "__main__":

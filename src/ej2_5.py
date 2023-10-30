@@ -7,7 +7,7 @@ def tributar(edad , ingresos):
 def main():
     edad = int(input("Dame tu edad : "))
     ingresos = int(input("Dame tus ingresos : "))
-    print(tributar())
+    print(tributar(edad , ingresos))
 
 
 if __name__ == "__main__":

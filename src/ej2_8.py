@@ -10,7 +10,7 @@ def puntuacion(puntos):
 
 def main():
     puntos = float(input("Dime los puntos obtenidos : "))
-    print(puntuacion())
+    print(puntuacion(puntos))
 
 
 if __name__ == "__main__":

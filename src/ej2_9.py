@@ -7,8 +7,8 @@ def entrada(edad):
         return "La entrada son 10€"
 
 def main():
-    edad = int(input("Dame el dividendo : "))
-    print(entrada())
+    edad = int(input("Dame tu edad : "))
+    print(entrada(edad))
 
 
 if __name__ == "__main__":

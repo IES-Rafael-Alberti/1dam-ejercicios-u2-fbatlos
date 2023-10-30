@@ -9,7 +9,7 @@ def contraseña(contraseña_introducida):
 
 def main():
     contraseña_introducida = (input("Introduce la contraseña : "))
-    print(contraseña())
+    print(contraseña(contraseña_introducida))
 
 
 if __name__ == "__main__":

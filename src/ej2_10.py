@@ -6,9 +6,10 @@ def pizza(vegano , ingrediente ):
         if ingrediente == "1":
             return "La pizza es vegetariana y lleva tomate , mozzarella y pimiento"
   
-        else:
+        elif ingrediente == "2":
             return "La pizza es vegetariana y lleva tomate , mozzarella y tofu"
-  
+        else:
+            return "ERROR"
     else:
   
         if ingrediente == "1"  :
@@ -17,13 +18,17 @@ def pizza(vegano , ingrediente ):
         elif ingrediente == "2" :
             return "La pizza es no vegetariana y lleva tomate , mozzarella y jamón"
   
-        else:
+        elif ingrediente == "3":
             return "La pizza es no vegetariana y lleva tomate , mozzarella y salmón"
+        else:
+            return "ERROR"
 
 def main():
     vegano = (input("Eres vegetariano? : "))
-    ingrediente = (input("Dame el divisor : "))
-    print(pizza())
+    print("""Ingredientes vegetarianos: (1))Pimiento y (2)tofu.
+Ingredientes no vegetarianos: (1)Peperoni, (2)Jamón y (3)Salmón.""")
+    ingrediente = (input("Dame el numero del ingrediente : "))
+    print(pizza(vegano , ingrediente))
 
 
 if __name__ == "__main__":
