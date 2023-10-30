@@ -9,3 +9,10 @@ def impares(numero):
                 out+=str(f" {cuenta} ,")
         numero -=1
     return out
+def main():
+    numero = int(input("Dame un numero para saber si es impar : "))
+    print(impares(numero))
+
+
+if __name__ == "__main__":
+    main()
