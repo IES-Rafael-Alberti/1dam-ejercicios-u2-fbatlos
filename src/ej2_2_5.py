@@ -13,7 +13,7 @@ def main():
     amount = int(input("Cantidad a invertir : "))
     interes = int(input("Interes porcentual anual : "))
     años = int(input("Cuantos años vas a invertir : "))
-    print(calcular_capital_a_obtener(amount , interes , años ))
+    calcular_capital_a_obtener(amount , interes , años )
 
 
 if __name__ == "__main__":
